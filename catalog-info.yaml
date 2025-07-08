@@ -8,7 +8,7 @@ metadata:
     backstage.io/kubernetes-id: cust-ga-component
     backstage.io/kubernetes-label-selector: 'app.kubernetes.io/instance=cust-ga-component'
     backstage.io/techdocs-ref: dir:.
-    github.com/project-slug: rhdh-demo-gh/cust-ga-component
+    github.com/project-slug: orgnandan/cust-ga-component
 spec:
   type: website
   lifecycle: dev

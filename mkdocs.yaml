@@ -1,0 +1,5 @@
+site_name: cust-ga-component
+site_description: cust-ga-component
+
+plugins:
+  - techdocs-core

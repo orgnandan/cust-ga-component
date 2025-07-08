@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: cust-ga-component
+  description: Custom GA component
+  annotations:
+    argocd/app-name: cust-ga-component
+    backstage.io/kubernetes-id: cust-ga-component
+    backstage.io/kubernetes-label-selector: 'app.kubernetes.io/instance=cust-ga-component'
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: rhdh-demo-gh/cust-ga-component
+spec:
+  type: website
+  system: 
+  lifecycle: dev
+  owner: group:default/devteam1

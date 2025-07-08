@@ -11,6 +11,5 @@ metadata:
     github.com/project-slug: rhdh-demo-gh/cust-ga-component
 spec:
   type: website
-  system: 
   lifecycle: dev
   owner: group:default/devteam1
